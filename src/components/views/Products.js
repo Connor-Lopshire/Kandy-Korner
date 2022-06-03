@@ -10,7 +10,7 @@ export const Proctucts = () => {
                 .then((productArray) => {
                     setProcucts(productArray)
                 })
-            console.log("Initial state of locations", products) // View the initial state of tickets
+            console.log("Initial state of products", products) // View the initial state of tickets
         },
         [] // When this array is empty, you are observing initial component state
     )
